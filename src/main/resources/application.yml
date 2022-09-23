@@ -1,0 +1,12 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      enable: true
+      server:
+        git:
+          uri:
