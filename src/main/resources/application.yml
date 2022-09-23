@@ -6,7 +6,7 @@ spring:
     name: configserver
   cloud:
     config:
-      enable: true
+      enabled: true
       server:
         git:
-          uri:
+          uri: C:\Users\ahidalgo\Desktop\CTI\configuration
